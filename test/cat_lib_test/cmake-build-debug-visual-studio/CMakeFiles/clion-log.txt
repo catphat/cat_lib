@@ -1,0 +1,5 @@
+"C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.1/bin/ninja/win/ninja.exe" -G Ninja -S D:\ISHQ-V\DEV\CPP\cat_lib\test\cat_lib_test -B D:\ISHQ-V\DEV\CPP\cat_lib\test\cat_lib_test\cmake-build-debug-visual-studio
+-- Could NOT find Python (missing: Python_EXECUTABLE Interpreter) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/ISHQ-V/DEV/CPP/cat_lib/test/cat_lib_test/cmake-build-debug-visual-studio

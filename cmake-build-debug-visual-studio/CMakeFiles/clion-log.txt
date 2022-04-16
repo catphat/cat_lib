@@ -1,0 +1,18 @@
+"C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.1/bin/ninja/win/ninja.exe" -G Ninja -S D:\ISHQ-V\DEV\CPP\cat_lib -B D:\ISHQ-V\DEV\CPP\cat_lib\cmake-build-debug-visual-studio
+-- Could NOT find Python (missing: Python_EXECUTABLE Interpreter) 
+-- Configuring done
+CMake Error at test/cat_lib_test/CMakeLists.txt:18 (add_executable):
+  Cannot find source file:
+
+    ringbuffer_test.cc
+Call Stack (most recent call first):
+  CMakeLists.txt:8 (include)
+
+
+CMake Error at test/cat_lib_test/CMakeLists.txt:18 (add_executable):
+  No SOURCES given to target: ringbuffer_test
+Call Stack (most recent call first):
+  CMakeLists.txt:8 (include)
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
