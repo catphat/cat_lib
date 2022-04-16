@@ -1,2 +1,0 @@
-D:/ISHQ-V/DEV/CPP/cat_lib/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
-D:/ISHQ-V/DEV/CPP/cat_lib/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir
