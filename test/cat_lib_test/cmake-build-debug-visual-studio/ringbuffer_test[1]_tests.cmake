@@ -1,5 +1,0 @@
-add_test( RingBufferTest.BasicAssertions D:/ISHQ-V/DEV/CPP/cat_lib/test/cat_lib_test/cmake-build-debug-visual-studio/ringbuffer_test.exe [==[--gtest_filter=RingBufferTest.BasicAssertions]==] --gtest_also_run_disabled_tests)
-set_tests_properties( RingBufferTest.BasicAssertions PROPERTIES WORKING_DIRECTORY D:/ISHQ-V/DEV/CPP/cat_lib/test/cat_lib_test/cmake-build-debug-visual-studio SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test( RingBufferTest_1.BasicAssertions D:/ISHQ-V/DEV/CPP/cat_lib/test/cat_lib_test/cmake-build-debug-visual-studio/ringbuffer_test.exe [==[--gtest_filter=RingBufferTest_1.BasicAssertions]==] --gtest_also_run_disabled_tests)
-set_tests_properties( RingBufferTest_1.BasicAssertions PROPERTIES WORKING_DIRECTORY D:/ISHQ-V/DEV/CPP/cat_lib/test/cat_lib_test/cmake-build-debug-visual-studio SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set( ringbuffer_test_TESTS RingBufferTest.BasicAssertions RingBufferTest_1.BasicAssertions)

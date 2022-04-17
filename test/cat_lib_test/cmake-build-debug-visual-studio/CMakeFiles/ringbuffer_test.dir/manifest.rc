@@ -1,2 +1,0 @@
-#pragma code_page(65001)
-1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/ISHQ-V/DEV/CPP/cat_lib/test/cat_lib_test/cmake-build-debug-visual-studio/CMakeFiles/ringbuffer_test.dir/embed.manifest"
