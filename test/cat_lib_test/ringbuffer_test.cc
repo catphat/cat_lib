@@ -2,15 +2,6 @@
 #include <gtest/gtest.h>
 #include "ringbuffer.hpp"
 
-
-// Demonstrate some basic assertions.
-TEST(RingBufferTest, BasicAssertions) {
-    // Expect two strings not to be equal.
-    EXPECT_STRNE("hello", "world");
-    // Expect equality.
-    EXPECT_EQ(7 * 6, 42);
-}
-
 TEST(RingBufferTest_CanNotInsertWhenFull, BasicAssertions) {
     cat_lib::Ringbuffer<const char*, 256> messageQueue;
     std::string msg;
