@@ -16,7 +16,7 @@
 #include <limits>
 #include <atomic>
 
-namespace cat_lib
+namespace catlib
 {
 	/*!
 	 * \brief Lock free, with no wasted slots ringbuffer implementation

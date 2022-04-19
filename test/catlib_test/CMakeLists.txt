@@ -1,13 +1,13 @@
 cmake_minimum_required(VERSION 3.14)
-project(cat_lib_test)
+project(catlib_test)
 
 # GoogleTest requires at least C++11
-set(cat_lib_test PROPERTIES
+set(catlib_test PROPERTIES
         CXX_STANDARD 17
         )
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
-add_library(cat_lib INTERFACE )
-target_include_directories(cat_lib INTERFACE ../../include/)
+add_library(catlib INTERFACE )
+target_include_directories(catlib INTERFACE ../../include/)
 
 include(FetchContent)
 FetchContent_Declare(
@@ -27,7 +27,7 @@ add_executable(
 target_link_libraries(
         ringbuffer_test
         gtest_main
-        cat_lib
+        catlib
 )
 
 include(GoogleTest)
