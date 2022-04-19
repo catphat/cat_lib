@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "ringbuffer.hpp"
+#include "cat_lib/ringbuffer.hpp"
 
 TEST(RingBufferTest_CanNotInsertWhenFull, BasicAssertions) {
     cat_lib::Ringbuffer<const char*, 256> messageQueue;
